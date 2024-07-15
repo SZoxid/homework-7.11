@@ -1,0 +1,13 @@
+img{
+    height: 55%;
+}
+.colors{
+    display: flex;
+    gap: 0.3em;
+    .color{
+        width: 2rem;
+        height: 2remm;
+        border-radius: 50%;
+        border: 1px solid;
+    }
+}

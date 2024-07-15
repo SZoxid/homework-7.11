@@ -1,0 +1,49 @@
+.navbar {
+  width: 95%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  a,
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+
+  a.activeLink {
+    font-weight: 500;
+    color: cornflowerblue;
+  }
+  .nav-list {
+    gap: 3em;
+  }
+  .nav-list-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    .nav-item-icon {
+      width: 22px;
+      height: 22px;
+    }
+    .nav-item-btn {
+      width: 100px;
+      border-radius: 10px;
+      background-color: #000;
+      color: #fff;
+    }
+  }
+  .nav-list-right h1 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: sans-serif;
+  }
+}
